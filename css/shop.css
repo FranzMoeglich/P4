@@ -1,0 +1,35 @@
+#kategorier {
+    margin: 10px 30px;
+    grid: 1, 5;
+}
+button {
+    
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-size: 1em;
+    margin: 10px 5px 0 0px;
+}
+.kurv {
+    content: url(/images/icon/kurv.png);
+    margin: 20px 20px 0 0 ;
+    float: right;
+}
+.produktContainer {
+    display: flex;
+    width: 100%;
+    padding: 0 10px 10px 10px;
+}
+.produkt {
+    margin-left: 20px;
+}
+.produkt img {
+    width: 140px;
+}
+.produkt p {
+    margin: 0;
+}
+.produkt h3 {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    color: red;
+}
