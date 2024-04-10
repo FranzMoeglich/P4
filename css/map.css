@@ -1,0 +1,56 @@
+p2 {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.search {
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+    border: 0;
+}
+.placering {
+    margin-right: 30px;
+    padding: 5px 8px;
+    float: right;
+    width: 20%;
+    height: 30px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.placering img {
+    width: 30%;
+    float: right;
+
+}
+.mapContainer {
+    display: flex;
+    width: 100%;
+    margin: 0 10px 10px 30px;
+
+}
+.map {
+    padding: 5px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+.map img {
+    width: 140px;
+}
+.map p {
+    font-size: 12px;
+    white-space: pre-line;
+    margin: 0;
+}
+.map h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.mapday {
+    float: left;
+}
+.maptime {
+    float: right;
+}
