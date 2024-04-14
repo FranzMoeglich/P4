@@ -1,0 +1,105 @@
+h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+h2, h3, h4 {
+    font-family: 'Alternate Gothic Atf', 'Arial Demi', sans-serif;
+}
+h1{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+    padding-left: 30px ;
+}
+h4 {
+    margin-top: -21px;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+}
+p {
+    margin: 0;
+    text-align: center;
+}
+#personligeOplysninger {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    width: calc(100% - 60px);
+    padding-top: 19px;
+    padding-bottom: 15px;
+    border-top: 1px solid #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
+}
+#personligeOplysnigner img {
+    float: left;
+    height: 17px;
+}
+#skiftKodeord {
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    border-top: 1px solid #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
+    font-size: 13px;
+    color: #E10909;
+    text-align: center;
+}
+#oplysninger {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+#box {
+    margin: 20px 60px ;
+    padding: 30px 0 10px 5px;
+    background-color: white;
+    text-align: left;
+}
+#box p {
+    padding-top: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+#boxBund {
+    margin-top: 30px;
+    height: 20px;
+    font-size: 12px;
+}
+#boxBund p {
+    display: inline;
+    font-size: 12px;
+    margin-left: 10px;
+}
+#boxBund img {
+    vertical-align: middle;
+}
+#slet {
+    font-size: 12px;
+    padding: 10px 60px 10px 60px;
+}
+#slet img {
+    float: right;
+}
+#logAf {
+    padding-top: 50px;
+    height: 150px;
+    background-color: #f2f2f2;
+}
+#logAfBox {
+    height: 100px;
+    background-color: black;
+}
+#logAfBox h2 {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}

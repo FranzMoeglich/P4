@@ -21,9 +21,10 @@ button {
 }
 .produkt {
     margin-left: 20px;
+    margin-right: 20px;
 }
 .produkt img {
-    width: 140px;
+    width: calc(100% + 5px);
 }
 .produkt p {
     margin: 0;
