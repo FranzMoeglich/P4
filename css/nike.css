@@ -1,0 +1,30 @@
+.billede img {
+    width: calc(100% - 60px);
+    margin: 30px;
+}
+.nikeTekst {
+    margin-top: -30px;
+    margin-left: 30px;
+}
+p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+h3 {
+    font-family: 'Avenir Roman', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #366A20;
+}
+#knap {
+    width: calc(100% - 60px);
+    margin-left: 30px;
+    background-color: #E10909;
+    color: white;
+}
+#knap h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 6px 0;
+}

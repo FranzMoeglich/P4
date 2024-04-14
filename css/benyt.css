@@ -1,0 +1,28 @@
+h3 {
+    margin-left: 30px;
+    font-family: 'Avenir Roman', sans-serif;
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 30px;
+}
+h5 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+#knap {
+    width: calc(100% - 60px);
+    margin-left: 30px;
+    background-color: #E10909;
+    color: white;
+}
+#knap h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 6px 0;
+}

@@ -1,0 +1,63 @@
+#scan {
+    width: 100%;
+    padding: 120px 0;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+span {
+    vertical-align: middle 
+}
+#en {
+    font-size: 57px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: 'Alternate Gothic Atf', 'Arial Bold', sans-serif;;
+}
+#to {
+    font-size: 14px;
+    color: green;
+    text-decoration: none;
+}
+#points h1 {
+    padding: 0;
+    margin: -10px;
+    padding-top: 20px;
+    text-align: center;
+}
+#points h2 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 6px 0;
+}
+#points p {
+    padding: 0;
+    padding-bottom: 30px;
+    margin: -10px;
+    padding-top: 20px;
+    text-align: center;
+}
+#points p2 {
+    font-size: 14px;
+    color: green;
+    text-decoration: none;
+}
+#points {
+    margin: 0;
+    width: calc(100% - 40px);
+    padding: 30px 20px;
+    background-color: #e7e7e7;
+}
+#pointsBox {
+    width: 100%;
+    text-align: center;
+    background: white;
+    padding-bottom: 10px;
+}
+#knap {
+    width: calc(100% - 100px);
+    margin-left: 50px;
+    background-color: #FF0000;
+}
