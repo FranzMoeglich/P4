@@ -103,3 +103,74 @@ p {
     color: white;
     text-align: center;
 }
+@media only screen and (min-width: 400px){
+h1 {
+    font-size: 90px;
+    background-color: #f2f2f2;
+}
+h2 {
+    font-size: 68px;
+}
+h3 {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    background-color: #f2f2f2;
+}
+h4 {
+    color: #A4A4A4;
+    font-size: 20px;
+    background-color: #f2f2f2;
+}
+#info {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+    background-color: white;
+}
+#info img {
+    margin: 0 60px 60px 0;
+    width: 200px;
+    height: 200px;
+}
+#info h3 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: -2px;
+    background-color: white;
+    font-size: 45px;
+    color: black;
+}
+#info h4{
+    margin-top: 30px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+}
+.infoBox h4, p{
+    text-align: left;
+    margin-right: 200px;
+}
+.infoBox p{
+    margin-top: 10px;
+}
+#imgLeft {  
+    position: absolute;
+    left: 320px;
+    top: 653px;
+    width: 35px;
+}
+
+#logAfBox { 
+    padding: 30px;
+    padding-bottom: 50px;
+}
+#slet {
+    padding: 20px;
+    margin-left: 60px;
+    font-size: 40px;
+}
+#slet img{
+    margin: 15px;
+}
+}

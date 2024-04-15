@@ -60,3 +60,37 @@ p {
     border: none;
     text-align: center;
 }
+@media only screen and (min-width: 400px) {
+body {
+    text-align: center;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 45px;
+}
+h4 {
+    font-size: 90px;
+}
+p {
+    font-size: 25px;
+}
+#largeSlet {
+    width: 50%;
+    margin-left: 25%;
+}
+#knap {
+    margin-top: 80px;
+    width: 300px;
+    margin-left: calc(50% - 150px) ;
+    font-size: 41px;
+}
+#sletTitle {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+}

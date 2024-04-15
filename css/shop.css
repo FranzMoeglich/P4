@@ -3,9 +3,8 @@
     grid: 1, 5;
 }
 button {
-    
     background: none;
-    border: 1px solid rgba(0, 0, 0, 0.4);
+    border: 1px solid #a4a4a4;
     font-size: 1em;
     margin: 10px 5px 0 0px;
 }
@@ -33,4 +32,46 @@ button {
     margin: 5px 0 0 0;
     font-size: 18px;
     color: red;
+}
+@media only screen and (min-width: 400px) {
+h2 {
+    text-align: center;
+    font-size: 65px;
+}
+h4 {
+    font-family: 'Avenir Roman', sans-serif;
+    text-align: center;
+    margin-right: calc(680px - 6%);
+    font-size: 20px;
+    font-weight: 100;
+}
+.kurv {
+    margin: 0 0 0 0 ;
+    width: 80px;
+}
+#kategorier {
+    text-align: center;
+}    
+button {
+    font-size: 28px;
+    margin: 30px 15px 0 0px;
+    padding: 10px;
+}
+.produktContainer {
+    display: inline;
+}
+.produkt {
+    display: inline-block;
+}
+.produkt img {
+    width: 300px;
+}
+.produkt p {
+    margin: 0;
+    font-size: 25px;
+}
+.produkt h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
 }
