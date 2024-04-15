@@ -3,6 +3,12 @@ p2 {
     margin-left: 30px;
     font-size: 14px;
 }
+h2 {
+    text-align: center;
+}
+hr {
+    width: 70%;
+}
 .search {
     width: 50%;
     height: 30px;
@@ -23,10 +29,10 @@ p2 {
 .placering img {
     width: 30%;
     float: right;
-
 }
 .mapContainer {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin: 0 10px 10px 30px;
 
@@ -53,4 +59,49 @@ p2 {
 }
 .maptime {
     float: right;
+}
+@media only screen and (min-width: 400px){
+p2 {
+    margin-left: 30%;
+    font-size: 14px;
+}
+.search {
+    display: inline;
+    width: 20%;
+    max-width: 300px;
+    margin-left: 30%;
+}
+.placering {
+    float: none;
+    display: inline;
+    padding: 13px;
+    padding-left: 0;
+    padding-right: 40px;
+}
+.placering img {
+    float: none;
+    position: relative;
+    right: -140px;
+    top: 10px;
+    width: 30px;
+}
+.map {
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+.map img {
+    width: 100%;
+}
+.map p {
+    font-size: 20px;
+    white-space: pre-line;
+    margin: 0;
+}
+.map h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
 }
