@@ -427,7 +427,7 @@ p {
 
 @media only screen and (max-width: 400px){
 /*bruh -- sæt ting der er små her*/
-.boxRed, .boxWhite, .top, .find, .headerLarge, .large {
+.boxRed, .boxWhite, .top, .find, .headerLarge, .large, .footerLarge {
     display: none;
 }
 }
