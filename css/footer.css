@@ -1,0 +1,23 @@
+@media only screen and (min-width: 400px) {
+.footerLargeBox {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 15%;
+    margin-left: 10%;
+}
+.footerLargeBox p {
+    margin: 0;
+    padding: 0;
+    font-size: min(22px, 2vw);
+    white-space: pre-line;
+    color: white;
+}
+.footerLargeBox h3 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size:  min(35px, 3vw);
+    white-space: pre;
+    color: white;
+}
+}

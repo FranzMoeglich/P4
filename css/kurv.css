@@ -49,3 +49,104 @@
     margin: 5px;
     white-space: pre;
 }
+@media only screen and (min-width: 400px) {
+body {
+    background-color: #f2f2f2;
+}
+.item {
+    width: 100%;
+}
+.items {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top: none;
+}
+#back {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    width: calc(100% - 60px);
+    padding-top: 19px;
+    padding-bottom: 15px;
+
+}
+#back img {
+    float: left;
+    padding: 15px;
+    height: 40px;
+}
+#back h4 {
+    margin: 0;
+}
+.pay {
+    padding: 20px;
+    padding-left: 0;
+    float: right;
+    background-color: white;
+    margin-right: calc(47% - 430px);
+}   
+.pay p, h1, h2, h3 {
+    padding-left: 20px;
+    font-family: 'Avenir Roman', sans-serif;
+    margin: 0;
+    margin-top: 30px;
+    white-space: pre;
+}
+.pay p {
+    font-size: 20px;
+}
+.pay h1 {
+    font-size: 25px;
+    text-align: left;
+}
+.pay h2 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+}
+.pay h3 {
+    font-size: 15px;
+}
+.payBox {
+    width: 105%;
+    border-top:10px solid #f2f2f2 ;
+}
+.payBox img {
+    float: right;
+    rotate: -90deg;
+    margin-top: -20px;
+    margin-right: 20px;
+    height: 20px;
+}
+#knap {
+    background-color: #E10909;
+    margin: 30px 30px;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Alternate Gothic Atf', 'Arial Demi', sans-serif;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+}
+.box {
+    background-color: white;
+    margin-top: 10px;
+    width: 50%;
+}
+.box h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+}
+.box p {
+    padding: 20px;
+    padding-top: 0;
+}
+.box img {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+}

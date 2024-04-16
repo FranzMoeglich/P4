@@ -32,7 +32,11 @@ p {
 }
 #back img {
     float: left;
-    height: 17px;
+    padding: 15px;
+    height: 40px;
+}
+#back h4 {
+    margin: 0;
 }
 #trash {
     padding-top: 20px;
