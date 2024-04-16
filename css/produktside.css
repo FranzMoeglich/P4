@@ -1,0 +1,154 @@
+@media only screen and (max-width: 400px) {
+    #back {
+        background-color: #e7e7e7;
+    }
+    #knap {
+        background-color: #E10909;
+        width: 80vw;
+        margin: 0;
+        margin-top: 10px;
+        padding: 5px 0;
+        color: white;
+        font-family: 'Alternate Gothic Atf', 'Arial Demi', sans-serif;
+        font-size: 12px;
+        border: none;
+        text-align: center;
+    }
+    #indhold {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #billed {
+        margin-left: 10%;
+        margin-right: -9%;
+        width: 40%;
+        max-width: 400px;
+        height: fit-content;
+    }
+    #tekstBox {
+        max-width: 500px ;
+        margin-left: 10%;
+        width: 40%;
+    }
+    #tekstBox h5{
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: 12px;
+        color: #a4a4a4;
+    }
+    #tekstBox h4{
+        margin: 0;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: left;
+        padding: 0;
+        color: red;
+    }
+    #tekstBox h3{
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: red;
+        padding: 0;
+    }
+    #tekstBox h2{
+        font-size: 15px;
+        font-family: 'Alternate Gothic Atf', 'demi', sans-serif;
+        padding: 0;
+    }
+    #tekstBox p{
+        font-size: 14px;
+    }
+    #tekstBox2 {
+        max-width: 500px ;
+        margin-left: 10%;
+        width: 80%;
+    }
+    #tekstBox2 h5{
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: 12px;
+        color: #a4a4a4;
+    }
+    #tekstBox2 h4{
+        margin: 0;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: left;
+        padding: 0;
+        color: red;
+    }
+    #tekstBox2 h3{
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: red;
+        padding: 0;
+    }
+    #tekstBox2 h2{
+        font-size: 15px;
+        font-family: 'Alternate Gothic Atf', 'demi', sans-serif;
+        padding: 0;
+    }
+    #tekstBox2 p{
+        font-size: 14px;
+    }
+    #tekstBox2 img {
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+#back {
+    background-color: #e7e7e7;
+}
+#indhold {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#billed {
+    margin-left: 15%;
+    margin-right: -9%;
+    width: 400px;
+    height: 600px;
+}
+#tekstBox {
+    max-width: 500px ;
+    margin-left: 10%;
+    width: 800px;
+}
+#tekstBox h5{
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+#tekstBox h4{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: left;
+    padding: 0;
+    color: red;
+}
+#tekstBox h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: red;
+    padding: 0;
+}
+#tekstBox h2{
+    font-size: 26px;
+    font-family: 'Alternate Gothic Atf', 'demi', sans-serif;
+    padding: 0;
+}
+#tekstBox p{
+    font-size: 25px;
+}
+#knap {
+    margin-left: 0;
+}
+}
