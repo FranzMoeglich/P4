@@ -20,7 +20,7 @@
     font-size: 18px;
     margin: 0;
 }
-.item p2 {
+.item h6 {
     font-size: 14px;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@
     margin: 5px;
     white-space: pre;
 }
-.samletPris p2 {
+.samletPris h6 {
     color: black;
     text-decoration: none;
 }
