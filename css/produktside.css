@@ -108,7 +108,12 @@
     display: flex;
     flex-wrap: wrap;
 }
-.billed {
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+.mySlides {
     margin-left: 15%;
     margin-right: -9%;
     width: 400px;
