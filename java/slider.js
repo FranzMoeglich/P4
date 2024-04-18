@@ -41,7 +41,7 @@ function before(){
     vis(slideIndex);
 }
 //øger slideIndex med en, går til næste slide
-function nextSlide(){
+function after(){
     slideIndex++;
     vis(slideIndex);
 }
