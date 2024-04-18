@@ -17,6 +17,7 @@ nav{
 }
 
 .navigation{
+    z-index: 1;
     position: fixed;
     right: -500px;
     width: 350px;
