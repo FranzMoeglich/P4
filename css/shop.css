@@ -1,6 +1,7 @@
 #kategorier {
     margin: 10px 30px;
-    grid: 1, 5;
+    display: grid;
+    grid-template-columns: repeat(5, 0.1fr); /* Definerer 5 kolonner med samme bredde */
 }
 button {
     background: none;
