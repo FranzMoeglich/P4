@@ -116,7 +116,11 @@ body {
 }
 .payBox img {
     float: right;
-    rotate: -90deg;
+    -webkit-transform: rotate(-90deg); /* Safari and Chrome */
+    -moz-transform: rotate(-90deg); /* Firefox */
+    -ms-transform: rotate(-90deg); /* IE */
+    -o-transform: rotate(-90deg); /* Opera */
+    transform: rotate(-90deg); /* Standard syntax */
     margin-top: -20px;
     margin-right: 20px;
     height: 20px;
