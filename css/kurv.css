@@ -66,7 +66,7 @@ body {
 #back {
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: #f2f2f2;
     width: calc(100% - 60px);
     padding-top: 19px;
