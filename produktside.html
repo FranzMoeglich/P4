@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,42 +8,61 @@
     <link rel="stylesheet" href="css/kurv.css">
     <link rel="stylesheet" href="css/produktside.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href ="Menu.css">
 
     <script src="java/produktside.js"></script>
 </head>
 <body>
 <!--Top af app-->
-    <div class="headerSmall">    
-        <div class="logo">
-            <img src="images/logo.png">
-        </div>
-        <a href="profil.html" class="profil">
-            <img src="images/icon/user.png">
-        </a> 
-        </div>
+<div class="headerSmall">    
+    <div class="logo">
+        <img src="images/logo.png" alt="logo">
     </div>
-    <div class="headerLarge">
-        <img src="images/logo.png" class="headerLargeKors">
-        <img src="images/icon/menu.png" class="headerLargeIcon">
+    <a href="profil.html" class="profil">
+        <img src="images/icon/user.png" alt="user icon">
+    </a> 
     </div>
+<div class="headerLarge">
+    <a href="index.html">
+        <img src="images/logo.png" class="headerLargeKors" alt="logo">
+    </a>
+</div>
+<div class="navigation">
+    <button class ="hamburger" onclick="show()">
+        <span id="bar1" class="bar"></span>
+        <span id="bar2" class="bar"></span>
+        <span id="bar3" class="bar"></span>
+    </button>
+    <nav>
+        <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="kurv.html">Kurv</a></li>
+            <li><a href="points.html">Points</a></li>
+            <li><a href="scan.html">Scan</a></li>
+            <li><a href="map.html">maps</a></li>
+        </ul>
+    </nav>
+</div>
 <!----> 
  
 <div class="small"> 
     <div class="title">
-        <a href="shop.html"><img src="images/icon/close.png"></a>
+        <a href="shop.html"><img src="images/icon/close.png" alt="lukke icon"></a>
         <p>Sunny Girl Kjole</p>
     </div>
 </div>
 <a href="shop.html">
     <div id="back">
-        <img src="images/icon/close.png">
+        <img src="images/icon/close.png" alt="lukke icon">
         <h4>Sunny Girl Kjole</h4>
     </div>
 </a>
 <!--small-->
 <div class="small">
     <div class="indhold">
-        <img class="billed" src="images/shop/kjole_front.png">
+        <img class="billed" src="images/shop/kjole_front.png" alt="front billede kjole">
         <div class="tekstBox">
             <h5>Shop / Damer / Sunny Girl Kjole</h5>
             <p>Sunny Girl Kjole</p>
@@ -63,9 +82,9 @@
             bindebånd, lynlås i siden og med Stropper. 
             Flot ryg. Lidt misfarvninger i siden, se billede.</p>
             <br>
-            <img class="billedRight" src="images/levering.png">
+            <img class="billedRight" src="images/levering.png" alt="levering icon">
             <br><br>
-            <img class="billedRight" src="images/grøn.png">
+            <img class="billedRight" src="images/grøn.png" alt="co2 icon">
             <br><br>
         </div>
     </div>
@@ -75,13 +94,13 @@
 <div class="indhold">
     <div class="slideshow-container">
         <div class="mySlides">
-          <img src="images/shop/kjole_front.png" style="width:100%">
+          <img src="images/shop/kjole_front.png" style="width:100%" alt="front billede af kjole">
         </div>
         <div class="mySlides">
-          <img src="images/shop/kjole_side.png" style="width:100%">
+          <img src="images/shop/kjole_side.png" style="width:100%" alt="side billede af kjole">
         </div>
         <div class="mySlides">
-          <img src="images/shop/kjole_bag.png" style="width:100%">
+          <img src="images/shop/kjole_bag.png" style="width:100%" alt="bag billede af kjole">
         </div>
       </div>
     <div class="tekstBox">
@@ -101,9 +120,9 @@
         bindebånd, lynlås i siden og med Stropper. 
         Flot ryg. Lidt misfarvninger i siden, se billede.</p>
         <br>
-        <img class="billedRight" src="images/levering.png">
+        <img class="billedRight" src="images/levering.png" alt="lerving icon">
         <br><br>
-        <img class="billedRight" src="images/grøn.png">
+        <img class="billedRight" src="images/grøn.png" alt="co2 icon">
         <br><br>
     </div>
 </div>
@@ -140,13 +159,14 @@ EAN: 5790002478093
 </div>
 <footer>
     <div class="footerbox">
-        <a href="scan.html"><img class="scanicon" src="images/icon/scan.png"></a>
-        <a href="index.html"><img class="footiconleft" src="images/icon/home.png"></a>
-        <a href="shop.html"><img class="footiconleft" src="images/icon/market.png"></a>
-        <a href="map.html"><img class="footiconright" src="images/icon/location.png"></a>
-        <a href="kurv.html"><img class="footiconright" src="images/icon/shopping_cart.png"></a>
+        <a href="scan.html"><img class="scanicon" src="images/icon/scan.png" alt="scan icon"></a>
+        <a href="index.html"><img class="footiconleft" src="images/icon/home.png" alt="home icon"></a>
+        <a href="shop.html"><img class="footiconleft" src="images/icon/market.png" alt="shopping icon"></a>
+        <a href="map.html"><img class="footiconright" src="images/icon/location.png" alt="map icon"></a>
+        <a href="kurv.html"><img class="footiconright" src="images/icon/shopping_cart.png" alt="kurv icon"></a>
     </div>
 </footer>
+<script src="Menu.js"></script>
 <!---->
 </body>
 </html>
