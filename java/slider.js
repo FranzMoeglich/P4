@@ -14,7 +14,7 @@ function run(){
 // slideIndex, hvliken slide den er på
        slider[slideIndex].classList.add("displaySlide");
 //setInteval udfører en funktion gentagende med et interval
-        intervalId = setInterval(nextSlide, 5354);
+        intervalId = setInterval(after, 5354);
     }
 }
 
