@@ -82,11 +82,13 @@ h2 {
     padding: 13px;
     padding-left: 0;
     padding-right: 40px;
+    font-size: 13px;
 }
 .placering img {
+    z-index: -1;
     float: none;
     position: relative;
-    right: -140px;
+    right: -150px;
     top: 10px;
     width: 30px;
 }
