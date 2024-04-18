@@ -6,7 +6,7 @@ button {
     background: none;
     border: 1px solid #a4a4a4;
     font-size: 1em;
-    margin: 10px 5px 0 0px;
+    margin: 10px 5px 0 0;
 }
 .kurv {
     content: url(/images/icon/kurv.png);

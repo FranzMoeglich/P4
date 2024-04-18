@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/shop.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href ="Menu.css">
 </head>
 <body>
 <!--Top af app-->
@@ -23,6 +24,25 @@
         <img src="images/logo.png" class="headerLargeKors" alt="logo">
         <img src="images/icon/menu.png" class="headerLargeIcon" alt="menu icon">
     </div> 
+    <div class="navigation">
+        <button class ="hamburger" onclick="show()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kurv.html">Kurv</a></li>
+                <li><a href="points.html">Points</a></li>
+                <li><a href="scan.html">Scan</a></li>
+                <li><a href="map.html">maps</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 <!--Title-->
 <div class="margin">
 <div class="small">
@@ -78,12 +98,28 @@
             <img src="images/shop/buks.png" alt="produkt icon">
             <p> Søren </p>
             <p> Buks </p>
-            <h3>69,00 kr</h3>
+            <h3>50,00 kr</h3>
         </div>
         <div class="produkt">
             <img src="images/shop/buks.png" alt="produkt icon">
             <p> Søren </p>
+            <img src="images/shop/buks2.png">
+            <p> Jesper </p>
             <p> Buks </p>
+            <h3>30,00 kr</h3>
+        </div>
+    </div>      
+    <div class="produktContainer">
+        <div class="produkt">
+            <img src="images/shop/kjole.png">
+            <p> Dorte </p>
+            <p> Kjole </p>
+            <h3>60,00 kr</h3>
+        </div>
+        <div class="produkt">
+            <img src="images/shop/kjole2.png">
+            <p> Lone </p>
+            <p> Kjole </p>
             <h3>69,00 kr</h3>
         </div>
     </div>
@@ -126,6 +162,7 @@ EAN: 5790002478093
         <a href="kurv.html"><img class="footiconright" src="images/icon/shopping_cart.png" alt="shopping icon"></a>
     </div>
 </footer>
+<script src="Menu.js"></script>
 <!---->
 </body>
 </html>

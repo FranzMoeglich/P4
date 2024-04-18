@@ -2,7 +2,7 @@
     #back {
         background-color: #e7e7e7;
     }
-    #knap {
+    .knap {
         background-color: #E10909;
         width: 80vw;
         margin: 0;
@@ -14,31 +14,31 @@
         border: none;
         text-align: center;
     }
-    #indhold {
+    .indhold {
         margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
     }
-    #billed {
+    .billed {
         margin-left: 10%;
         margin-right: -9%;
         width: 40%;
         max-width: 400px;
         height: fit-content;
     }
-    #tekstBox {
+    .tekstBox {
         max-width: 500px ;
         margin-left: 10%;
         width: 40%;
     }
-    #tekstBox h5{
+    .tekstBox h5{
         margin: 0;
         margin-bottom: 20px;
         margin-left: 10px;
         font-size: 12px;
         color: #a4a4a4;
     }
-    #tekstBox h4{
+    .tekstBox h4{
         margin: 0;
         margin-top: 20px;
         font-size: 20px;
@@ -46,18 +46,18 @@
         padding: 0;
         color: red;
     }
-    #tekstBox h3{
+    .tekstBox h3{
         margin-bottom: 10px;
         font-size: 14px;
         color: red;
         padding: 0;
     }
-    #tekstBox h2{
+    .tekstBox h2{
         font-size: 15px;
         font-family: 'Alternate Gothic Atf', 'demi', sans-serif;
         padding: 0;
     }
-    #tekstBox p{
+    .tekstBox p{
         font-size: 14px;
     }
     #tekstBox2 {
@@ -103,30 +103,30 @@
 #back {
     background-color: #e7e7e7;
 }
-#indhold {
+.indhold {
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
 }
-#billed {
+.billed {
     margin-left: 15%;
     margin-right: -9%;
     width: 400px;
     height: 600px;
 }
-#tekstBox {
+.tekstBox {
     max-width: 500px ;
     margin-left: 10%;
     width: 800px;
 }
-#tekstBox h5{
+.tekstBox h5{
     margin: 0;
     margin-bottom: 20px;
     margin-left: 10px;
     font-size: 20px;
     color: #a4a4a4;
 }
-#tekstBox h4{
+.tekstBox h4{
     margin: 0;
     margin-top: 20px;
     font-size: 40px;
@@ -134,21 +134,21 @@
     padding: 0;
     color: red;
 }
-#tekstBox h3{
+.tekstBox h3{
     margin-bottom: 10px;
     font-size: 25px;
     color: red;
     padding: 0;
 }
-#tekstBox h2{
+.tekstBox h2{
     font-size: 26px;
     font-family: 'Alternate Gothic Atf', 'demi', sans-serif;
     padding: 0;
 }
-#tekstBox p{
+.tekstBox p{
     font-size: 25px;
 }
-#knap {
+.knap {
     margin-left: 0;
 }
 }

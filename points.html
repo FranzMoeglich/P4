@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/points.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href ="Menu.css">
 </head>
 <body>
 <!--Top af app-->
@@ -46,6 +47,24 @@
         <img src="images/icon/right-arrow.png" alt="pil">
     </div>
 </div>
+    <div class="navigation">
+        <button class ="hamburger" onclick="show()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kurv.html">Kurv</a></li>
+                <li><a href="points.html">Points</a></li>
+                <li><a href="scan.html">Scan</a></li>
+                <li><a href="map.html">maps</a></li>
+            </ul>
+        </nav>
+    </div>
 <!--title-->
 <h1><img id="coin" src="images/icon/coin.png" alt="billede af en mønt">Points</h1>
 <!-- -->
@@ -143,3 +162,26 @@
 
 <p>+45 35 25 92 80</p>
 </div>
++45 35 25 92 80
+
+Røde Kors
+Blegdamsvej 27
+2100 København Ø
+CVR: 20700211
+EAN: 5790002478093
+        </p>
+    </div>
+</div>
+<footer>
+    <div class="footerbox">
+        <a href="scan.html"><img class="scanicon" src="images/icon/scan.png"></a>
+        <a href="index.html"><img class="footiconleft" src="images/icon/home.png"></a>
+        <a href="shop.html"><img class="footiconleft" src="images/icon/market.png"></a>
+        <a href="map.html"><img class="footiconright" src="images/icon/location.png"></a>
+        <a href="kurv.html"><img class="footiconright" src="images/icon/shopping_cart.png"></a>
+    </div>
+</footer>
+<script src="Menu.js"></script>
+<!---->
+</body>
+</html>

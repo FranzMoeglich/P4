@@ -1,6 +1,7 @@
 .billede img {
     width: calc(100% - 60px);
     margin: 30px;
+    max-width: 400px;
 }
 .nikeTekst {
     margin-top: -30px;

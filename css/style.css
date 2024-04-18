@@ -217,6 +217,16 @@ html {
 body {
     margin: 0;
 }
+footer {
+    border-top: none;
+    position: fixed;
+    height: 0;
+    background-color:none;
+    max-width: 400px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
 /*None*/
 .footerbox {
     display: none;
