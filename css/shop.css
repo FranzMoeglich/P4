@@ -10,7 +10,7 @@ button {
     margin: 10px 5px 0 0;
 }
 .kurv {
-    content: url(/images/icon/kurv.png);
+    content: url(images/icon/kurv.png);
     margin: 20px 20px 0 0 ;
     float: right;
 }
